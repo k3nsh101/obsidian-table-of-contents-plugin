@@ -1,0 +1,6 @@
+{
+  "id": "table-of-content-plugin",
+  "name": "Table of Content Plugin",
+  "description": "Generate a table of content for the current note",
+  "author": "kenshi"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "obsidian-table-of-contents-plugin",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/k3nsh101/obsidian-table-of-contents-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/k3nsh101/obsidian-table-of-contents-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k3nsh101/obsidian-table-of-contents-plugin.git"
+  },
+  "license": "ISC",
+  "author": "kenshi",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.13.1",
+    "typescript": "^7.0.2"
+  }
+}
